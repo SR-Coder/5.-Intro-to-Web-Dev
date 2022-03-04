@@ -1,0 +1,104 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+body {
+  background-color: black;
+  padding: 100px;
+  font-family: "Butcherman", cursive;
+}
+
+.container {
+  background-color: #66f2b1;
+  padding: 20px;
+  width: 1200px;
+  min-height: 700px;
+  margin: auto;
+}
+
+header {
+  background: linear-gradient(
+    152deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(255, 156, 0, 1) 13%,
+    rgba(255, 237, 0, 1) 27%,
+    rgba(175, 253, 29, 1) 42%,
+    rgba(0, 255, 199, 1) 60%,
+    rgba(58, 116, 252, 1) 74%,
+    rgba(181, 69, 252, 1) 88%,
+    rgba(252, 69, 69, 1) 100%
+  );
+  padding: 20px;
+  border-radius: 15px;
+  text-shadow: 3px 3px 5px red;
+  font-size: 2em;
+}
+
+.main-content {
+  margin-top: 20px;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.nav {
+  background-color: orange;
+  width: 250px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  color: whitesmoke;
+  text-shadow: 3px 3px 5px red;
+  background-image: url("https://github.com/SR-Coder/5.-Intro-to-Web-Dev/blob/2117c3eb8ea42b31b212e3e0585881ca19602100/theOracle/images/1783828.jpeg?raw=true");
+  background-size: 920px;
+  width: 920px;
+  min-height: 700px;
+  align-items: center;
+}
+
+#cards{
+    margin-top: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+  height: 300px;
+  width: 205px;
+  background: url("https://github.com/SR-Coder/5.-Intro-to-Web-Dev/blob/master/theOracle/images/red_playing_card.png?raw=true");
+  background-size: 200px 300px;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+#answer {
+    margin-top: 50px;
+    text-shadow: 3px 3px 5px red;
+    font-size: 3em;
+}
+
+.rotate {
+  transform: rotate3d(0, 1, 1, 360deg);
+  transition-timing-function: ease-in-out;
+  transition: transform 1s;
+}
+
+.un-rotate {
+  transform: rotate3d(0, 1, 1, 0deg);
+  transition-timing-function: ease-in-out;
+  transition: transform 1s;
+}
+
+#cardFace {
+  background: url("https://github.com/SR-Coder/5.-Intro-to-Web-Dev/blob/master/theOracle/images/queen_spades.png?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
